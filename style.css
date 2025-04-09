@@ -1,0 +1,276 @@
+
+
+.rasi{
+    background-color: rgba(123, 223, 123, 0.933);
+    color: #FFFFFF;
+    border: 1px solid;
+    text-align: center;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bg-text{
+    display: flex;
+    gap: 350px;
+    padding-left: 5px;
+    font-size: x-large;
+    color: #FFFFFF;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.bg-text .info{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+    font-family: sans-serif;
+}
+.bg-text .logo{
+    margin-top: 30px;
+}
+.bg-text .company{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+}
+.elevate{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: #ffffff;
+    font-size: xx-large;
+}
+.elevate button{
+    background-color: #EEEEEF;
+    border-color: #EEEEEF;
+    border-radius: 10px;
+    height: 70px;
+    width: 300px;
+    font-size: x-large;
+    color: #FFFFFF;
+}
+.india{
+    text-align: center;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    margin-top: 20px;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Artistry{
+    display: flex;
+    margin-top: 70px;
+    gap: 2%;
+    padding-left: 100px;
+}
+.printing{
+    font-size: larger;
+    padding-right: 300px;
+    width: 70%;
+}
+.printing button{
+    border-radius: 50px;
+    height: 70px;
+    width: 150px;
+    font-size: large;
+}
+.icons{
+    display: flex;
+    padding-left: 200px;
+    background-color: #D9D9D9;
+    margin-top: 100px;
+    gap: 50px;
+}
+.array{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    margin-top: 150px;
+}
+.techniques{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    padding-left: 150px;
+}
+.techniques img{
+    border-radius: 5%;
+}
+.client{
+    text-align: center;
+    font-size: larger;
+}
+.sites{
+    display: flex;
+}
+.aditya{
+    display: flex;
+}
+.arvind{
+    display: flex;
+}
+.mills{
+    display: flex;
+}
+.quality{
+    display: flex;
+    margin-top: 80px;
+    padding-left: 150px;
+}
+.brands{
+    padding-left: 300px;
+    gap: 500px;
+}
+.works{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.showcasing-works{
+    padding-left: 300px;
+    gap: 100px;
+}
+.reach-out{
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact-info{
+    border: 1px solid aqua;
+    width: 30%;
+    border-radius: 10%;
+    box-shadow: inset;
+    position: absolute;
+    top: 750%;
+    left: 5%;
+    background-color: #FFFFFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.phone{
+    display: flex;
+    padding-left: 10px;
+}
+.address{
+    display: flex;
+}
+.open{
+    display: flex;
+}
+.footer{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 150px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.RP{
+    padding-left: 20px;
+    margin-top: 20px;
+    height: 70px;
+}
+.call{
+    border: 1px solid;
+    height: 20px;
+    width: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+.copyright{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: overline;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+
+
+@media screen and (max-width: 760px){
+    .bg-text{
+        display: flex;
+        gap: 1px;
+        font-size: xx-small;
+        color: #FFFFFF;
+        position: absolute;
+        top: 10%;
+    }
+    .bg-text .info{
+        display: flex;
+        margin-top: 5px;
+        gap: 10px;
+        font-family: sans-serif;
+    }
+    .elevate{
+        text-align: center;
+        position: absolute;
+        top: 15%;
+        left: 7%;
+        color: #ffffff;
+        font-size: xx-small;
+        font-weight: 100;
+    }
+    .elevate button{
+        background-color: #EEEEEF;
+        border-color: #EEEEEF;
+        border-radius: 10px;
+        height: 20px;
+        width: 100px;
+        font-size: small;
+        color: #000000;
+    }
+    .Artistry{
+        display: flex;
+        margin-top: 70px;
+        gap: 2%;
+    }
+    .icons{
+        display: flex;
+        background-color: #D9D9D9;
+        margin-top: 100px;
+        flex-wrap: wrap;
+    }
+    .techniques{
+        display: flex;
+        gap: 10px;
+        margin-top: 50px;
+        flex-wrap: wrap;  
+    }
+    .sites{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .quality{
+        display: flex;
+        margin-top: 80px;
+        padding-left: 0px;
+    }
+    .brands{
+        padding-left: 50px;
+        gap: 500px;
+    }
+    .showcasing-works{
+        padding-left: 50px;
+        gap: 100px;
+    }
+    .contact-info{
+        border: 1px solid aqua;
+        width: 30%;
+        border-radius: 10%;
+        box-shadow: inset;
+        position: absolute;
+        top: 1100%;
+        left: 5%;
+        background-color: #FFFFFF;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .footer{
+        display: flex;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        gap: 150px;
+        background-color: #000000;
+        color: #FFFFFF;
+        flex-direction: column;
+    }
+
+}
